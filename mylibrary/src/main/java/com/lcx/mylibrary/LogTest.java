@@ -4,7 +4,7 @@ import android.util.Log;
 
 public class LogTest {
     public static final String TAG = LogTest.class.getSimpleName();
-    static void log(String s) {
+    public static void log(String s) {
         Log.e(TAG, "测试library");
     }
 }
